@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="GT Google Backup: персональное приложение для локального резервного копирования файлов из Google Drive.">
+  <title>GT Google Backup</title>
+  <style>
+    :root{color-scheme:light;font-family:system-ui,-apple-system,"Segoe UI",Arial,sans-serif;color:#16243d;background:#f6f8fc}
+    body{margin:0;padding:36px 18px}main{max-width:720px;margin:auto;background:white;padding:40px;border:1px solid #e4e8f0;border-radius:18px}
+    h1{font-size:2rem;margin:0 0 12px}h2{margin-top:30px;font-size:1.25rem}p,li{line-height:1.65}a{color:#175cd3}
+    footer{margin-top:30px;padding-top:18px;border-top:1px solid #e5e8ee;color:#586579;font-size:.9rem}
+  </style>
+</head>
+<body>
+<main>
+  <h1>GT Google Backup</h1>
+  <p>Персональная утилита для резервного копирования файлов Google Диска на собственный компьютер владельца. Используется локально с программой rclone.</p>
+  <h2>Как работает</h2>
+  <ul>
+    <li>Владелец самостоятельно авторизует доступ к своему Google Диску через Google OAuth.</li>
+    <li>Запрашивается доступ только для чтения файлов (<code>drive.readonly</code>).</li>
+    <li>Выбранные файлы загружаются напрямую на компьютер владельца и сохраняются в локальном архиве.</li>
+    <li>Приложение не изменяет и не удаляет данные на Google Диске.</li>
+  </ul>
+  <h2>Конфиденциальность</h2>
+  <p>На этом сайте нет формы входа, загрузки файлов или средств просмотра содержимого Google Диска. Резервные копии не публикуются здесь.</p>
+  <p><a href="./privacy.html">Политика конфиденциальности GT Google Backup</a></p>
+  <footer>Личная утилита. Страница описывает локальное применение, а не общедоступную облачную службу.</footer>
+</main>
+</body>
+</html>
