@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Политика конфиденциальности персональной утилиты GT Google Backup.">
+  <title>Политика конфиденциальности | GT Google Backup</title>
+  <style>
+    :root{color-scheme:light;font-family:system-ui,-apple-system,"Segoe UI",Arial,sans-serif;color:#16243d;background:#f6f8fc}
+    body{margin:0;padding:36px 18px}main{max-width:720px;margin:auto;background:white;padding:40px;border:1px solid #e4e8f0;border-radius:18px}
+    h1{font-size:1.85rem}h2{font-size:1.18rem;margin-top:28px}p,li{line-height:1.65}a{color:#175cd3}
+    footer{margin-top:30px;padding-top:18px;border-top:1px solid #e5e8ee;color:#586579;font-size:.9rem}
+  </style>
+</head>
+<body>
+<main>
+  <p><a href="./">На главную</a></p>
+  <h1>Политика конфиденциальности GT Google Backup</h1>
+  <p><strong>Дата обновления: 24 октября 2026 года.</strong></p>
+  <p>GT Google Backup представляет собой личную утилиту для сохранения резервных копий Google Диска на компьютер владельца. В ней используется rclone и авторизация Google OAuth.</p>
+  <h2>Какие данные используются</h2>
+  <p>После разрешения владельца утилита получает доступ к названиям файлов, структуре папок, метаданным и содержимому выбранных файлов в Google Диске, необходимым для выполнения резервного копирования.</p>
+  <h2>Цель и пределы доступа</h2>
+  <p>Данные используются исключительно для чтения, скачивания и локального резервного копирования. Запрашиваемая область доступа OAuth: <code>https://www.googleapis.com/auth/drive.readonly</code>. Изменение или удаление исходных файлов через этот доступ не предусмотрено.</p>
+  <h2>Где хранятся данные</h2>
+  <p>Скачанные файлы, архивы и журналы обработки сохраняются локально на компьютере владельца. Токены авторизации rclone также сохраняются локально в конфигурации rclone. За ограничение доступа к компьютеру, резервным копиям и файлам конфигурации отвечает владелец.</p>
+  <h2>Передача третьим лицам</h2>
+  <p>Утилита не отправляет содержимое Google Диска на сервер этого сайта и не продаёт пользовательские данные. Обмен с Google API нужен для чтения разрешённых данных; публикация сайта через GitHub Pages не используется для передачи резервных копий. Сайт не содержит собственных форм сбора персональных данных и аналитических скриптов.</p>
+  <h2>Удаление и отзыв доступа</h2>
+  <p>Владелец может удалить локальные резервные копии и конфигурацию rclone, а также отозвать выданные разрешения в настройках безопасности аккаунта Google: <a href="https://myaccount.google.com/connections">myaccount.google.com/connections</a>.</p>
+  <h2>Изменения и обратная связь</h2>
+  <p>Актуальная версия политики размещается на этой странице. Информация о проекте доступна в <a href="https://github.com/ALI-GT777/gt-google-backup-site">репозитории GitHub</a>. Не размещайте в публичных обращениях токены доступа или конфиденциальные данные.</p>
+  <footer>GT Google Backup: локальное резервное копирование для личного использования.</footer>
+</main>
+</body>
+</html>
